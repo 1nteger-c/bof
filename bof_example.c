@@ -1,4 +1,4 @@
-//gcc -o bof bof.c -m32 -fno-stack-protector -mpreferred-stack-boundary=2 -z execstack -no-pie
+//gcc -o bof_example bof_example.c -m32 -fno-stack-protector -mpreferred-stack-boundary=2 -z execstack -no-pie
 
 #include <stdio.h>
 #include <string.h>
